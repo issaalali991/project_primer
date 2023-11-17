@@ -1,0 +1,95 @@
+body{
+  background-color: #e4e6f8;
+  font-size: 120%;
+  font-family: 'Open Sans', 'Sans-serif';
+}
+.wrapper{
+  background-color: #fff;
+  max-width: 1024px;
+  margin:0 auto;
+  border-radius: 20px;
+  -moz-border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -khtml-border-radius: 20px;
+}
+
+header .brand {
+  color : #666;
+  font-family: 'Pacifico', 'Georgia';
+  font-size: 1.7em;
+  padding: 1em;
+}
+
+header .brand span{
+  color : #666;
+  font-family: 'Open Sans', 'Sans-serif';
+  font-size: 1.7em;
+  padding: 1em;
+}
+#hero{
+  min-height: 400px;
+  background: #68bba1 url(img/blog.jpg) center no-repeat;
+}
+footer{
+  text-align: center;
+  padding: 1em;
+  font-size: 0.9em;
+  clear: both;
+}
+main {
+  overflow: hidden;
+  display: flex;
+  padding: 1.5em;
+
+}
+
+#blogContent{
+  width: 70%;
+  
+  
+}
+
+
+aside nav{
+  background-color: #e6f7cc;
+  padding: 1.8em;
+  box-sizing: border-box;
+  
+}
+aside nav h3{
+  background-color: #a895eb;
+  color: #fff;
+  padding: 1.1em;
+  margin-top: 0;
+}
+a{
+  color: #333;
+}
+a:hover{
+  color:#0062ff;
+}
+aside {
+  width: 30%;
+  padding-left: 10px;
+}
+aside nav ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+
+}
+aside nav ul li a{
+  padding: 0.8em 0;
+  display: block;
+}
+article h2{
+  margin-bottom: 0;
+  font-size: 1.7em;
+  color: #333;
+  padding: 0;
+}
+article p{
+  margin-top: 0.8em;
+  color: #333;
+  padding: 0;
+}
