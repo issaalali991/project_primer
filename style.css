@@ -3,7 +3,31 @@ body{
   font-size: 120%;
   font-family: 'Open Sans', 'Sans-serif';
 }
+
+.color_red{
+  color: red;
+}
+.navbar{
+  background-color: rgb(236, 224, 224);
+  height: 60px;
+  display: grid;
+  align-items: center;
+  margin: 4px;
+  border-radius: 5px;
+}
+.navbar ul{
+  display: flex;
+  justify-content: space-around;
+  align-self: center;
+}
+.navbar ul li{
+  list-style: none;}
+.navbar ul li a{
+  text-decoration: none;
+  font-size: 22px;
+}
 .wrapper{
+
   background-color: #fff;
   max-width: 1024px;
   margin:0 auto;
@@ -15,9 +39,13 @@ body{
 
 header .brand {
   color : #666;
+
   font-family: 'Pacifico', 'Georgia';
   font-size: 1.7em;
   padding: 1em;
+  background-image:  linear-gradient;
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 header .brand span{
@@ -29,6 +57,7 @@ header .brand span{
 #hero{
   min-height: 400px;
   background: #68bba1 url(img/blog.jpg) center no-repeat;
+  border-radius: 10px;
 }
 footer{
   text-align: center;
