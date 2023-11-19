@@ -4,9 +4,7 @@ body{
   font-family: 'Open Sans', 'Sans-serif';
 }
 
-.color_red{
-  color: red;
-}
+
 .navbar{
   background-color: rgb(236, 224, 224);
   height: 60px;
